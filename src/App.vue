@@ -4,24 +4,19 @@
     <Hero></Hero>
   </div>
   <div class="h-screen bg-white">
-    <div class="flex justify-center">
-      <div>Foto</div>
-      <div>Sobre</div>
-    </div>
-    <div class="flex  justify-center">
-      <div>Habilidades</div>
-      <div>Habilidades</div>
-    </div>
+    <SubHero></SubHero>
   </div>
 </template>
 
 <script>
 import Nav from "./components/Nav/index.vue";
 import Hero from "./components/Hero/index.vue";
+import SubHero from "./components/SubHero/index.vue";
 export default {
   components: {
     Nav,
     Hero,
+    SubHero,
   },
 };
 </script>

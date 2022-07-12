@@ -12,7 +12,7 @@
           <li>Projetos</li>
         </ul>
         <button
-          class="rounded-md bg-main-yellow text-main-blue font-bold px-6 py-2"
+          class="ml-4 rounded-md bg-main-yellow text-main-blue font-bold px-6 py-2"
         >
           Contato
         </button>
@@ -21,8 +21,6 @@
   </header>
 </template>
 
-<script >
-export default {
-    
-}
+<script>
+export default {};
 </script>
