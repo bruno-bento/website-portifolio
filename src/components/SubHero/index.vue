@@ -26,11 +26,30 @@
         </div>
       </div>
       <div class="flex flex-col justify-start items-center bg-main-blue w-full rounded h-2/6">
-        <p class="text-white font-regular py-5 text-xl font-bold">Habilidades</p>
+        <p class="text-white text-center font-regular py-5 text-xl font-bold">Habilidades</p>
+        <div class="flex justify-between  items-center w-full h-full mb-5 px-5">
+          <Icon name="ArrowLeft"  :color="mainColors.yellow" />
+          <Icon name="ArrowRight" :color="mainColors.yellow" />
+        </div>
       </div>
     </div>
   </section>
 </template>
+
+
+<script>
+import Icon from '../Icons/index.vue'
+export default {
+  components: {
+    Icon
+  },
+  setup() {
+    return{
+      mainColors: { yellow: '#FFD02B' }
+    }
+  }
+}
+</script>
 
 <style lang="postcss" scoped>
 .shadow {
