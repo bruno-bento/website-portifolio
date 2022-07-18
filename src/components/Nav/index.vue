@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="h-20">
     <nav class="flex items-center justify-between bg-main-blue p-5">
-      <div class="w-28 lg:w-36">
+      <div class="w-full h-full">
         <p class="text-main-yellow font-bold">Logo</p>
       </div>
       <div class="flex items-center text-white font-regular">
