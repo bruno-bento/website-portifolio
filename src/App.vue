@@ -1,12 +1,12 @@
 <template>
-  <div class="h-screen bg-main-blue flex flex-col">
+  <div class="h-screen w-full bg-main-blue flex flex-col">
     <Nav></Nav>
     <Hero></Hero>
   </div>
-  <div class="h-screen bg-white">
+  <div class="h-screen w-full flex flex-col bg-white">
     <SubHero></SubHero>
   </div>
-  <div class="h-screen bg-main-blue">
+  <div class="h-screen w-full flex flex-col bg-main-blue">
     <BodyContent></BodyContent> 
   </div>
 </template>
