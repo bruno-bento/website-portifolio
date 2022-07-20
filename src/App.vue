@@ -1,13 +1,18 @@
 <template>
-  <div class="h-screen w-full bg-main-blue flex flex-col">
-    <Nav></Nav>
-    <Hero></Hero>
-  </div>
-  <div class="h-screen w-full flex flex-col bg-white">
-    <SubHero></SubHero>
-  </div>
-  <div class="h-screen w-full flex flex-col bg-main-blue">
-    <BodyContent></BodyContent> 
+  <div class="snap-y snap-mandatory h-screen w-full" >
+    <div class="snap-start h-screen w-full bg-main-blue flex flex-col">
+      <Nav></Nav>
+      <Hero></Hero>
+    </div>
+    <div class="snap-start h-screen w-full flex flex-col bg-white">
+      <SubHero></SubHero>
+    </div>
+    <div class="snap-start h-screen w-full flex flex-col bg-main-blue">
+      <BodyContent></BodyContent>
+    </div>
+    <div class="snap-start h-screen w-full flex flex-col bg-white">
+      <BodyContent></BodyContent>
+    </div>
   </div>
 </template>
 
@@ -22,7 +27,7 @@ export default {
     Nav,
     Hero,
     SubHero,
-    BodyContent
+    BodyContent,
   },
 };
 </script>
