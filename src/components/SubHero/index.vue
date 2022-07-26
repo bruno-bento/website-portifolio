@@ -9,20 +9,19 @@
             alt="profilePicture"
           />
         </div>
-        <div class="flex flex-col items-center w-4/6 h-4/6 bg-main-yellow rounded-md" >
-          <p class="font-bold text-main-blue mt-4 text-2xl">Sobre</p>
-          <p class="font-regular text-main-blue mt-4 text-center text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, culpa qui officia deserunt mollit anim id est
-            laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, culpa qui officia deserunt mollit anim id
-            est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
+        <div class="flex flex-col justify-evenly items-center w-4/6 h-4/6 bg-main-yellow rounded-md" >
+          <p class="font-bold text-main-blue text-2xl ">Sobre</p>
+          <div class="w-full h-4/6 px-5 overflow-hidden">
+            <p class=" text-main-blue text-center text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, culpa qui officia deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, culpa qui officia deserunt mollit anim id
+              est laborum.
+            </p>
+          </div>
         </div>
       </div>
       <div class="flex flex-col justify-start items-center bg-main-blue w-full rounded h-2/6">

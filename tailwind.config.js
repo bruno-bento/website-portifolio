@@ -9,6 +9,11 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
+    extend: {
+      backgroundImage: {
+        'background-experience': "url('/src/assets/images/background-experience.png')",
+      }
+    },
     colors: {
       'main-blue' : '#012232',
       'main-yellow' : '#FFD02B',

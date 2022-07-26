@@ -7,12 +7,10 @@
     <div class="snap-start h-screen w-full flex flex-col bg-white">
       <SubHero></SubHero>
     </div>
-    <div class="snap-start h-screen w-full flex flex-col bg-main-blue">
-      <BodyContent></BodyContent>
+    <div class="snap-start h-screen w-full flex flex-col  ">
+        <BodyContent></BodyContent>
     </div>
-    <div class="snap-start h-screen w-full flex flex-col bg-white">
-      <BodyContent></BodyContent>
-    </div>
+
   </div>
 </template>
 
