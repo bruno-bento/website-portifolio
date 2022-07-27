@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'background-experience': "url('/src/assets/images/background-experience.png')",
+        'background-projects': "url('/src/assets/images/background-projects.png')",
+        'wave': "url('/src/assets/images/wave.png')",
+        'wave-svg': "url('/src/assets/images/wavesvg.svg')",
       }
     },
     colors: {
